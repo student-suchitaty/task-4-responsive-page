@@ -1,0 +1,32 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  color: #1f2a24;
+  background: #f6f7f2;
+}
+
+.container { width: 1000px; margin: 0 auto; }
+
+.header-inner { display: flex; justify-content: space-between; align-items: center; height: 80px; }
+.logo { font-size: 28px; font-weight: bold; color: #1f5c3f; text-decoration: none; }
+.site-nav ul { display: flex; gap: 32px; list-style: none; }
+.site-nav a { color: #1f2a24; text-decoration: none; }
+
+.hero { background: #dcebdd; padding: 80px 0; }
+.hero-inner { display: flex; justify-content: space-between; align-items: center; }
+.hero-text { width: 460px; }
+.hero h1 { font-size: 60px; line-height: 1.1; color: #1f5c3f; margin-bottom: 20px; }
+.hero p { margin-bottom: 28px; }
+.btn { display: inline-block; background: #1f5c3f; color: #fff; padding: 14px 28px; border-radius: 8px; text-decoration: none; }
+.hero-img svg { width: 480px; height: 320px; display: block; }
+
+.treks { padding: 80px 0; }
+.treks h2 { font-size: 40px; margin-bottom: 30px; }
+.cards { display: flex; justify-content: space-between; }
+.card { width: 310px; background: #fff; padding: 24px; border: 1px solid #dde3d8; border-radius: 10px; }
+.card h3 { font-size: 24px; margin-bottom: 10px; }
+
+.site-footer { background: #1f2a24; color: #fff; padding: 30px 0; }
+.footer-inner { display: flex; justify-content: space-between; }
